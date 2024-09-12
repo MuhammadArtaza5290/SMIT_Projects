@@ -2,8 +2,7 @@ import image from '../../assets/preview1.jpeg'
 import './Navbar.css'
 import {Button} from '../button/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
+import { faXmark,faBarsStaggered} from '@fortawesome/free-solid-svg-icons';
 import React,{useRef} from 'react';
 function Navbar() {
     const menuRef = useRef();
