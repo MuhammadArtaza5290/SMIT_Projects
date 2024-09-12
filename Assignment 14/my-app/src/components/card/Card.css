@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-sec{
+    width: 100%;
+    height: 65rem;
+    background-color: #121212;
+}
+.main-head{
+    width: 100%;
+    height: 8rem;
+    position: absolute;
+    top: 110rem;
+    font-size: 1.8rem;
+    color: aliceblue;
+    
+}
+.s-head{
+    margin-left: 35%;
+    margin-right: auto;
+}
+.card1{
+    width: 30%;
+    height: 21rem;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+   
+}
+.card1:hover{
+    background-image: linear-gradient(130deg,rgba(192, 4, 209, 0.479),rgba(209, 137, 2, 0.452));
+    border: 2px solid rgb(235, 11, 255);
+    transform: scale(1.1px);
+}
+.card-box{
+    width: 90%;
+    height: 50rem;
+    position: absolute;
+    top: 118rem;
+    left: 5%;
+    display: flex;
+    gap: 3rem;
+    right: auto;
+    flex-wrap: wrap;
+    
+}
+.heading{
+    width: 100%;
+    height: 3rem;
+
+    margin-top: 20px;
+}
+.heading1{
+    width: 100%;
+    height: 3rem;
+
+    margin-top: 10px;
+}
+.paragraph{
+    width: 100%;
+    height: 8rem;
+ 
+    margin-top: 10px;
+}
+.h-style{
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+    right: auto;
+}
+.h-style1{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    right: auto;
+    background:  linear-gradient(90deg,rgb(235, 11, 255),orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.p-style{
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    right: auto;
+}
+.read-more{
+    width: 100%;
+    height: 3rem;
+   
+}
+.h-style3{
+    color: aliceblue;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    right: auto;
+    position: absolute;
+    top: 100 !important;
+}
+.icon{
+    font-size: 22px;
+    color: aliceblue;
+    padding-left: 10rem;
+    padding-right: auto;
+    padding-top: 5px;
+
+} 
+
+
+
+
+
+
+@media (max-width: 1160px) {
+    .s-head{
+        margin-left: 30%;
+        margin-right: auto;
+    }
+    .card1{
+        width: 27%;
+        height: 21rem;
+        border: 2px solid aliceblue;
+        border-radius: 20px;
+        margin-left: 0.5rem;
+       
+    }
+    .h-style1{
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        right: auto;
+        background:  linear-gradient(90deg,rgb(235, 11, 255),orange);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .p-style{
+        color: aliceblue;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 1.5rem;
+        right: auto;
+    }
+}
+@media (max-width: 786px) {
+    .s-head{
+        margin-left: 25%;
+        margin-right: auto;
+    }
+    .card1{
+        width: 27%;
+        height: 21rem;
+        border: 2px solid aliceblue;
+        border-radius: 20px;
+        margin-left: 0.5rem;
+        margin-right: -20px !important;
+    }
+    .h-style1{
+        font-size: 1.3rem;
+        margin-left: 1.5rem;
+        right: auto;
+        background:  linear-gradient(90deg,rgb(235, 11, 255),orange);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .p-style{
+        color: aliceblue;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-left: 1.5rem;
+        right: auto;
+    }
+    .h-style3{
+        color: aliceblue;
+        font-size: 0.8rem;
+        margin-left: 1.5rem;
+        right: auto;
+        position: absolute;
+        top: 100 !important;
+    }
+    .icon{
+        font-size: 22px;
+        color: aliceblue;
+        padding-left: 6rem;
+        padding-right: auto;
+        padding-top: 0px;
+    
+    } 
+}
+@media (max-width: 550px) {
+    .main-head{
+        width: 90%;
+        height: 8rem;
+        position: absolute;
+        top: 110rem;
+        font-size: 1.8rem;
+        color: aliceblue;
+    }
+    .s-head{
+        margin-left: 17%;
+        margin-right: auto;
+    }
+    .card1{
+        width: 33%;
+        height: 21rem;
+        border: 2px solid aliceblue;
+        border-radius: 20px;
+        margin-left: 2rem;
+        margin-right: -20px !important;
+    }
+    .h-style1{
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+        right: auto;
+        background:  linear-gradient(90deg,rgb(235, 11, 255),orange);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .p-style{
+        color: aliceblue;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-left: 1.5rem;
+        right: auto;
+    }
+    .h-style3{
+        color: aliceblue;
+        font-size: 0.8rem;
+        margin-left: 1.5rem;
+        right: auto;
+        position: absolute;
+        top: 100 !important;
+    }
+    .icon{
+        font-size: 18px;
+        color: aliceblue;
+        padding-left: 6rem;
+        padding-right: auto;
+        padding-top: 0px;
+    
+    } 
+    .card-sec{
+        width: 100%;
+        height: 95rem;
+        background-color: #121212;
+    }
+}
+
+
+
+
+
+
+
+
+
+

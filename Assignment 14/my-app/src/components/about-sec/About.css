@@ -1,0 +1,746 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+.about-sec{
+    width: 100%;
+    height: 53rem;
+    background-color: #121212;
+}
+.about-head{
+    height: 4rem;
+    width: 90%;
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+.About{
+    margin-left: 40%;
+    margin-right: auto;
+
+}
+.img-cont{
+    width: 90%;
+    height: 100vh;
+
+    display: flex;
+}
+.img-sec{
+    height: 30rem;
+    width: 20rem;
+;
+    position: absolute;
+    top: 63rem;
+    left: 8rem;
+    right: auto;
+    
+}
+.image{
+    height: 30rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+}
+.cont{
+    height: 35rem;
+    width: 40rem;
+ 
+    position: absolute;
+    top: 63rem;
+    right: 5rem;
+    left: auto;
+}
+.para{
+    color:aliceblue;
+    font-size: 1.3rem;
+}
+.lang{
+    height: 20rem;
+    width: 40rem;
+    position: absolute;
+    top: 15rem;
+
+   
+}
+.html{
+    height: 1.6rem;
+    width: 35%;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.2rem;
+    right: auto;
+    display: flex;
+    gap: 5rem;
+  
+}
+.html-para{
+    font-size: 1.6rem;
+    color: aliceblue;
+    font-weight: 400;
+    transition: transform 0.5s ease;
+}
+.html-para:hover{
+    transform: scale(1.2);
+}
+.line1{
+    height: 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    width: 60%;
+    background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+    position: absolute;
+    top: 2.5rem;
+    right: 1.2rem;
+    left: auto;
+}
+.css{
+    height: 1.6rem;
+    width: 35%;
+    position: absolute;
+    top: 4.5rem;
+    left: 1.2rem;
+    right: auto;
+    display: flex;
+    gap: 5rem;
+  
+}
+.css-para{
+    font-size: 1.6rem;
+    color: aliceblue;
+    font-weight: 400;
+    transition: transform 0.5s ease;
+}
+.css-para:hover{
+    transform: scale(1.2);
+}
+.line2{
+    height: 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    width: 60%;
+    background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+    position: absolute;
+    top: 5.5rem;
+    right: 1.2rem;
+    left: auto;
+}
+.bootstrap{
+    height: 1.6rem;
+    width: 35%;
+    position: absolute;
+    top: 7.5rem;
+    left: 1.2rem;
+    right: auto;
+    display: flex;
+    gap: 5rem;
+  
+}
+.bootstrap-para{
+    font-size: 1.6rem;
+    color: aliceblue;
+    font-weight: 400;
+    transition: transform 0.5s ease;
+}
+.bootstrap-para:hover{
+    transform: scale(1.2);
+}
+.line3{
+    height: 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    width: 60%;
+    background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+    position: absolute;
+    top: 8.5rem;
+    right: 1.2rem;
+    left: auto;
+}
+.javascript{
+    height: 1.6rem;
+    width: 35%;
+    ;
+    position: absolute;
+    top: 10.5rem;
+    left: 1.2rem;
+    right: auto;
+    display: flex;
+    gap: 5rem;
+  
+}
+.javascript-para{
+    font-size: 1.6rem;
+    color: aliceblue;
+    font-weight: 400;
+    transition: transform 0.5s ease;
+}
+.javascript-para:hover{
+    transform: scale(1.2);
+}
+.line4{
+    height: 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    width: 60%;
+    background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+    position: absolute;
+    top: 11.5rem;
+    right: 1.2rem;
+    left: auto;
+}
+.react{
+    height: 1.6rem;
+    width: 35%;
+  
+    position: absolute;
+    top: 13.5rem;
+    left: 1.2rem;
+    right: auto;
+    display: flex;
+    gap: 5rem;
+  
+}
+.react-para{
+    font-size: 1.6rem;
+    color: aliceblue;
+    font-weight: 400;
+    transition: transform 0.5s ease;
+}
+.react-para:hover{
+    transform: scale(1.2);
+}
+.line5{
+    height: 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    width: 60%;
+    background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+    position: absolute;
+    top: 14.5rem;
+    right: 1.2rem;
+    left: auto;
+}
+
+.about-exp{
+    height: 7rem;
+    width: 90%;
+   
+    
+    
+}
+.exp1{
+    height: 7rem;
+    width: 35%;
+    position: absolute;
+   
+}
+.exp2{
+    height: 7rem;
+    width: 35%;
+    position: absolute;
+    left: 30%;
+ 
+}
+.exp3{
+    height: 7rem;
+    width: 35%;
+    position: absolute;
+    left: 60%;
+
+}
+.ex-para1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+}
+.ex-span1{
+    font-size: 2rem;
+    background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.linee{
+    rotate: 90deg;
+    margin-left:auto;
+    margin-right: 0.5rem;
+    width: 5rem;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+@media (min-width: 1190) {
+    .about-sec{
+        width: 100%;
+        height: 50rem;
+        background-color: #121212;
+    }
+    .about-head{
+        height: 4rem;
+        width: 100%;
+        
+        color: aliceblue;
+        font-size: 1.8rem;
+    }
+    .About{
+        margin-left: 35%;
+        margin-right: auto;
+    }
+ 
+}
+@media (max-width: 1190px) {
+    .about-sec{
+        width: 100%;
+        height: 55rem;
+        background-color: #121212;
+    }
+    .About{
+        margin-left: 30vw;
+        margin-right: auto;
+    }
+    .about-sec .img-cont .img-sec {
+        display: none !important;
+    }
+    .cont{
+        height: 35rem;
+        width: 40rem;
+        position: absolute;
+        top: 63rem !important;
+        left: 7rem;
+        right: auto;
+    }.ex-para1{
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: aliceblue;
+        text-align: center;
+    }
+    .ex-span1{
+        font-size: 2rem;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+    .linee{
+        rotate: 90deg;
+        margin-left:auto;
+        margin-right: 0.3rem;
+        width: 5rem;
+        margin-top: -20px;
+    }
+    
+}
+@media (max-width: 786px) {
+    .About{
+        margin-left: 25vw;
+       
+        margin-right: auto;
+    }
+    .cont{
+        height: 45rem;
+        width: 25rem;
+        
+        position: absolute;
+        top: 55rem !important;
+        left: 5rem;
+        right: auto;
+    }
+    .para{
+        color:aliceblue;
+        font-size: 1.1rem;
+    }
+    .About{
+        margin-left: 33vw;
+        margin-right: auto;
+    }
+    .lang{
+        height: 20rem;
+        width: 20rem;
+        position: absolute;
+        top: 15rem;
+        
+    }
+    .html{
+        height: 1.6rem;
+        width: 25vw;
+        position: absolute;
+        top: 1.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .html-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .html-para:hover{
+        transform: scale(1.2);
+    }
+    .line1{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 40%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 2.5rem;
+        right: 3.5rem;
+        left: auto;
+    }
+    .css{
+        height: 1.6rem;
+        width: 25vw;
+        position: absolute;
+        top: 4.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .css-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .css-para:hover{
+        transform: scale(1.2);
+    }
+    .line2{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 40%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 5.5rem;
+        right: 3.5rem;
+        left: auto;
+    }
+    .bootstrap{
+        height: 1.6rem;
+        width: 25vw;
+        position: absolute;
+        top: 7.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .bootstrap-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .bootstrap-para:hover{
+        transform: scale(1.2);
+    }
+    .line3{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 40%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 8.5rem;
+        right: 3.5rem;
+        left: auto;
+    }
+    .javascript{
+        height: 1.6rem;
+        width: 25vw;
+        position: absolute;
+        top: 10.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .javascript-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .javascript-para:hover{
+        transform: scale(1.2);
+    }
+    .line4{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 40%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 11.5rem;
+        right: 3.5rem;
+        left: auto;
+    }
+    .react{
+        height: 1.6rem;
+        width: 25vw;
+       
+        position: absolute;
+        top: 13.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .react-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .react-para:hover{
+        transform: scale(1.2);
+    }
+    .line5{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 40%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 14.5rem;
+        right: 3.5rem;
+        left: auto;
+    }
+    .ex-para1{
+        font-size: 1rem;
+        font-weight: 600;
+        color: aliceblue;
+        text-align: center;
+    }
+    .ex-span1{
+        font-size: 2rem;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+    .linee{
+       display: none !important;
+    }
+    
+}
+@media (max-width: 550px) {
+    .About{
+        margin-left: 20vw;
+        margin-right: auto;
+        
+    }
+    .cont{
+        height: 45rem;
+        width: 20rem;
+     
+        position: absolute;
+        top: 55rem !important;
+        left: 2rem;
+        right: auto;
+    }
+    .lang{
+        height: 20rem;
+        width: 20rem;
+        position: absolute;
+        top: 15rem;
+   
+    }
+    .para{
+        color:aliceblue;
+        font-size: 0.9rem;
+    }
+   
+    .html{
+        height: 1.6rem;
+        width: 25vw;
+        position: absolute;
+        top: 1.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .html-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .html-para:hover{
+        transform: scale(1.2);
+    }
+    .line1{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 25%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 2.5rem;
+        right: 5.5rem;
+        left: auto;
+    }
+    .css{
+        height: 1.6rem;
+        width: 25vw;
+        position: absolute;
+        top: 4.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .css-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .css-para:hover{
+        transform: scale(1.2);
+    }
+    .line2{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 25%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 5.5rem;
+        right: 5.5rem;
+        left: auto;
+    }
+    .bootstrap{
+        height: 1.6rem;
+        width: 25vw;
+        position: absolute;
+        top: 7.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .bootstrap-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .bootstrap-para:hover{
+        transform: scale(1.2);
+    }
+    .line3{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 25%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 8.5rem;
+        right: 5.5rem;
+        left: auto;
+    }
+    .javascript{
+        height: 1.6rem;
+        width: 25vw;
+        position: absolute;
+        top: 10.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .javascript-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .javascript-para:hover{
+        transform: scale(1.2);
+    }
+    .line4{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 25%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 11.5rem;
+        right: 5.5rem;
+        left: auto;
+    }
+    .react{
+        height: 1.6rem;
+        width: 25vw;
+       
+        position: absolute;
+        top: 13.5rem;
+        left: 0.5rem;
+        right: auto;
+        display: flex;
+        gap: 2rem;
+      
+    }
+    .react-para{
+        font-size: 1.3rem;
+        color: aliceblue;
+        font-weight: 400;
+    }
+    .react-para:hover{
+        transform: scale(1.2);
+    }
+    .line5{
+        height: 0.7rem;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        width: 25%;
+        background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+        position: absolute;
+        top: 14.5rem;
+        right: 5.5rem;
+        left: auto;
+    }
+    .img-sec{
+        display: none !important;
+    }
+}
+@media (max-width: 452px) {
+    .About{
+        margin-left: 20%;
+        margin-right: auto;
+    }
+    .about-head{
+        height: 4rem;
+        width: 90%;
+        color: aliceblue;
+        font-size: 1.3rem;
+    }
+   
+    .cont{
+        height: 45rem;
+        width: 20rem;
+        position: absolute;
+        top: 60rem !important;
+        left: 2rem;
+        right: auto;
+    }
+    .img-sec{
+        display: none !important;
+    }
+}

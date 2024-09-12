@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.work-sec{
+    width: 100%;
+    height: 60rem;
+    background-color: #121212;
+}
+.work-head{
+    width: 90%;
+    height: 7rem;
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+.work-h{
+    margin-left: 35%;
+}
+.work-boox{
+    width: 97%;
+        display: flex;
+        flex-wrap: wrap; /* Wrap images to the next line if there's no space */
+        justify-content: center; /* Center images */
+        gap: 10px; /* Space between images */
+        padding: 10px;
+        /* border: 1px solid yellow; */
+}
+.w-pic1{
+    width: calc(33.33% - 20px); /* Each image takes 1/3rd of the container's width */
+    max-width: 100%; /* Image won't exceed container width */
+    height: auto; /* Maintain image aspect ratio */
+    transition: transform 0.5s ease;
+}
+.w-pic1:hover{
+    transform: scale(1.08999);
+}
+@media (min-width: 1200px) {
+    .work-head{
+        width: 90%;
+        height: 7rem;
+        padding-top: 20px;
+        
+        color: aliceblue;
+        font-size: 1.8rem;
+    }
+    .work-h{
+        margin-left: 35vw;
+    }
+    .w-pic1{
+        width: 350px;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        transition: transform 0.5s ease;
+    }
+    .w-pic1:hover{
+        transform: scale(1.08999);
+    }
+    .bbtn{
+        margin-left: 40%;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 1199px) {
+    .work-h{
+        margin-left: 33vw;
+    }
+    .work-boox{
+        display: flex;
+        flex-wrap: wrap; /* Wrap images to the next line if there's no space */
+        justify-content: center; /* Center images */
+        gap: 10px; /* Space between images */
+        padding: 10px;
+}
+.w-pic1{
+    width: calc(33.33% - 20px); /* Each image takes 1/3rd of the container's width */
+    max-width: 100%; /* Image won't exceed container width */
+    height: auto; /* Maintain image aspect ratio */
+    transition: transform 0.5s ease;
+}
+.bbtn{
+    margin-left: 38%;
+    margin-top: 2rem;
+}
+
+}
+@media (max-width: 760px) {
+    .work-h{
+        margin-left: 5vw;
+    }
+    .w-pic1{
+        width: calc(50% - 20px); /* Images will be 2 per row on medium screens */
+        transition: transform 0.5s ease;
+    }
+    .work-sec{
+        width: 100%;
+        height: 55rem;
+        background-color: #121212;
+    }
+    .bbtn{
+        margin-left: 35%;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 480px) {
+    .w-pic1{
+        width: calc(50% - 20px);
+        transition: transform 0.5s ease;
+    }
+    .work-sec{
+        width: 100%;
+        height: 40rem;
+        background-color: #121212;
+    }
+}

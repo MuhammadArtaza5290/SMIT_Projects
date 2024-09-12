@@ -1,0 +1,192 @@
+.main-contact{
+    width: 100%;
+    height: 50rem;
+    background-color: #121212;
+   
+}
+.contact-head{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    /* border: 1px solid yellow; */
+}
+.contentt-box{
+    width: 100%;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1{
+    width: 45%;
+    height: 30rem;
+    /* border: 1px solid rgb(0, 255, 76) ; */
+}
+.box2{
+    width: 45%;
+    height: 30rem;
+    /* border: 1px solid rgb(98, 0, 255); */
+}
+.boxx-head{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    font-size: 1.5rem;
+    background: linear-gradient(90deg,rgb(235, 11, 255),orange);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+
+.boxx-para{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+    text-align: start;
+    font-size: 1rem;
+}
+.boxx-mail{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.fontt{
+    font-size: 20px;
+    color: aliceblue;
+}
+.fonttPara{
+    font-size: 20px;
+    color: aliceblue;
+}
+.boxx-phone{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.boxx-location{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.labell{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.inputt{
+    width: 90%;
+    height: 3rem;
+    background-color: #333;
+    border: none;
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+}
+
+
+.inputt1{
+    width: 90%;
+    height: 3rem;
+    background-color: #333;
+    border: none;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+.inputt2{
+    width: 90%;
+    height: 10rem;
+    background-color: #333;
+    border: none;
+    margin-bottom: 10px;
+}
+.Sbtn{
+    margin: 30px;
+}
+@media (max-width: 768px) {
+    .main-contact{
+        width: 100%;
+        height: 60rem;
+        background-color: #121212;
+       
+    }
+    
+    .contact-head {
+        font-size: 1.5rem; /* Reduce heading font size */
+        height: 8rem; /* Adjust height */
+    }
+
+    .contentt-box {
+        flex-direction: column; /* Stack boxes vertically */
+    }
+
+    .box1, .box2 {
+        width: 90%; /* Take full width */
+        height: auto; /* Adjust height to content */
+    }
+
+    .boxx-head {
+        font-size: 1.3rem; /* Smaller font size */
+    }
+
+    .boxx-para {
+        font-size: 0.9rem; /* Reduce font size */
+    }
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 480px) {
+    .main-contact{
+        width: 100%;
+        height: 60rem;
+        background-color: #121212;
+       
+    }
+
+    .contact-head {
+        font-size: 1.2rem; /* Smaller font size */
+        height: 6rem; /* Adjust height */
+    }
+
+    .contentt-box {
+        flex-direction: column; /* Stack vertically */
+    }
+
+    .box1, .box2 {
+        width: 100%; /* Full width for small screens */
+        height: auto; /* Adjust to content height */
+    }
+
+    .boxx-head {
+        font-size: 1.2rem; /* Further reduce font size */
+    }
+
+    .boxx-para {
+        font-size: 0.8rem; /* Smaller paragraph text */
+    }
+
+    .inputt, .inputt1, .inputt2 {
+        width: 100%; /* Make inputs full-width */
+    }
+
+    .Sbtn {
+        margin: 20px; /* Adjust button margin */
+    }
+}
