@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+        .appear{
+    display: block;
+}
+    </style>
+</head>
+<body>
+    <div class="backGround">
+        <div class="calculator">
+            <div class="submit" id="submited"></div>
+            <div class="output" id="outputs">0</div>
+            <div class="button" id="buttton">
+                <button class="btn" onclick="clrDisplay()" onclick="removeOnTop()">AC</button>
+                <button class="btn" onclick="deleteLastChar()">DEL</button>
+                <button class="btn" onclick="simpleToScientific()"><i class="fa-solid fa-angle-down"></i></button>
+                <button class="btn" onclick="operatorAppear('%')">%</button>
+                <button class="btn" onclick="numbers('7')">7</button>
+                <button class="btn" onclick="numbers('8')">8</button>
+                <button class="btn" onclick="numbers('9')">9</button>
+                <button class="btn" onclick="operatorAppear('/')"><i class="fa-solid fa-divide"></i></button>
+                <button class="btn" onclick="numbers('4')">4</button>
+                <button class="btn" onclick="numbers('5')">5</button>
+                <button class="btn" onclick="numbers('6')">6</button>
+                <button class="btn" onclick="operatorAppear('*')"><i class="fa-solid fa-xmark"></i></button>
+                <button class="btn" onclick="numbers('1')">1</button>
+                <button class="btn" onclick="numbers('2')">2</button>
+                <button class="btn" onclick="numbers('3')">3</button>
+                <button class="btn" onclick="operatorAppear('-')">-</button>
+                <button class="btn" onclick="numbers('0')">0</button>
+                <button class="btn" onclick="numbers('.')">.</button>
+                <button class="btn" onclick="calculate()">=</button>
+                <button class="btn" onclick="operatorAppear('+')">+</button>
+            </div>
+            <div class="button1" id="buttton1">
+                <button class="btn1" onclick="scientificToSimple()"><i class="fa-solid fa-xmark"></i></button>
+                <button class="btn1" onclick="operatorAppear('sin:')">sin</button>
+                <button class="btn1" onclick="operatorAppear('cos:')">cos</button>
+                <button class="btn1" onclick="operatorAppear('tan:')">tan</button>
+                <button class="btn1" onclick="operatorAppear('csec')">csec</button>
+                <button class="btn1" onclick="operatorAppear('sec:')">sec</button>
+                <button class="btn1" onclick="operatorAppear('cot:')">cot</button>
+                <button class="btn1" onclick="operatorAppear('**')"><i class="fa-solid fa-angle-up"></i></button>
+                
+                <button class="btn1"  onclick="operatorAppear('log:')">log</button>
+                <button class="btn1" onclick="operatorAppear('n!')">n!</button>
+                <button class="btn1" onclick="operatorAppear('rad')">rad</button>
+                <button class="btn1" onclick="operatorAppear('deg')">deg</button>
+                <button class="btn2" onclick="clrDisplay()" onclick="removeOnTop()">AC</button>
+                <button class="btn1" onclick="deleteLastChar()">DEL</button>
+                <button class="btn1" onclick="operatorAppear('%')">%</button>
+               
+                <button class="btn1" onclick="numbers('7')">7</button>
+                <button class="btn1" onclick="numbers('8')">8</button>
+                <button class="btn1" onclick="numbers('9')">9</button>
+                <button class="btn1" onclick="operatorAppear('/')"><i class="fa-solid fa-divide"></i></button>
+                
+                <button class="btn1" onclick="numbers('4')">4</button>
+                <button class="btn1" onclick="numbers('5')">5</button>
+                <button class="btn1" onclick="numbers('6')">6</button>
+                <button class="btn1" onclick="operatorAppear('*')"><i class="fa-solid fa-xmark"></i></button>
+                
+                <button class="btn1" onclick="numbers('1')">1</button>
+                <button class="btn1" onclick="numbers('2')">2</button>
+                <button class="btn1" onclick="numbers('3')">3</button>
+                <button class="btn1" onclick="operatorAppear('-')">-</button>
+                
+                <button class="btn1" onclick="numbers('0')">0</button>
+                <button class="btn1" onclick="numbers('.')">.</button>
+                <button class="btn1" onclick="calculate()">=</button>
+                <button class="btn1" onclick="operatorAppear('+')">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

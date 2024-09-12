@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.backGround{
+    background-image: linear-gradient(180deg, black, rgb(221, 113, 25));
+    min-width: 100%;
+    height: 640px;
+    position: relative;
+}
+.calculator{
+    width: 400px;
+    height: 600px;
+    /* border: 1px solid rgb(238, 184, 8); */
+    position: absolute;
+    left: 35%;
+    right: 50%;
+    top: 20px;
+    border-radius: 20px;
+}
+.submit {
+    width: 100%;
+    height: 20vh;
+    color: whitesmoke;
+    padding-left: 1.5rem;
+    padding-top: 0.6rem;
+    font-size: 35px;
+    /* border: 1px solid black; */
+    background-color: rgb(17, 17, 17);
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.output{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
+    font-size: 1.8rem;
+    text-align: end;
+    padding: 1.2rem;
+    
+}
+.button{
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid yellow; */
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: rgb(17, 17, 17);
+}
+.btn{
+    text-wrap: wrap;
+    width: 21%;
+    height: 15%;
+    margin-left: 11px;
+    margin-top: 2px;
+    border-radius: 15px;
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+    font-size: 20px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s; 
+}
+.btn:hover{
+    background-color: rgb(221, 113, 25);
+    color:  rgb(32, 32, 32);
+}
+.calculator .button .btn i{
+      color: whitesmoke;
+      font-size: 20px;  
+}
+
+
+/* <======================= Scientific section ===========================> */
+
+.button1{
+    height: 66.6%;
+    width: 100%;
+    background-color:rgb(17, 17, 17);
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+.btn1{
+    text-wrap: wrap;
+    width: 22%;
+    height: 11.8%;
+    margin-left: 7px;
+    margin-top: 2px;
+    border-radius: 15px;
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    transition: background-color 0.3s; 
+}
+.btn1:hover{
+    background-color: rgb(221, 113, 25);
+    color:  rgb(32, 32, 32);
+}
+.btn2{
+    text-wrap: wrap;
+    width: 45%;
+    height: 11%;
+    margin-left: 7px;
+    margin-top: 2px;
+    border-radius: 15px;
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    transition: background-color 0.3s; 
+}
+.btn2:hover{
+    background-color: rgb(221, 113, 25);
+    color:  rgb(32, 32, 32);
+}
+.calculator .button .btn1 i{
+      color: whitesmoke;
+      font-size: 1.3rem;  
+}
+@media (min-width: 1190px) {
+    .backGround{
+        background-image: linear-gradient(180deg, black, rgb(221, 113, 25));
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+    }
+    .calculator{
+        width: 36%;
+        height: 90%;
+        /* border: 1px solid rgb(238, 184, 8); */
+        position: absolute;
+        left: 33%;
+        right: 38%;
+        top: 5%;
+        border-radius: 20px;
+    }  
+    .button{
+        width: 100%;
+        height: 60vh;
+        /* border: 1px solid yellow; */
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: rgb(17, 17, 17);
+    }
+    .button1{
+        width: 100%;
+        height: 60vh;
+        /* border: 1px solid yellow; */
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: rgb(17, 17, 17);
+    }
+    .btn{
+        text-wrap: wrap;
+        width: 22%;
+        height: 15%;
+        margin-left: 9px;
+        margin-top: 11px;
+        border-radius: 15px;
+        color: whitesmoke;
+        font-size: 20px;
+        /* border: 1px solid transparent; */
+    }
+    .btn1{
+        text-wrap: wrap;
+        width: 22%;
+        height: 11.8%;
+        margin-left: 8.5px;
+        margin-top: 2px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 1.3rem;
+        border: 1px solid transparent;
+        transition: background-color 0.3s; 
+    }
+    .btn1:hover{
+        background-color: rgb(221, 113, 25);
+        color:  rgb(32, 32, 32);
+    }
+    .btn2{
+        text-wrap: wrap;
+        width: 46%;
+        height: 11%;
+        margin-left: 8.5px;
+        margin-top: 2px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 1.3rem;
+        border: 1px solid transparent;
+        transition: background-color 0.3s; 
+    }
+    .btn2:hover{
+        background-color: rgb(221, 113, 25);
+        color:  rgb(32, 32, 32);
+    }
+  
+}
+@media(max-width: 1190px) {
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .backGround{
+        background-image: linear-gradient(180deg, black, rgb(221, 113, 25));
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+    }
+    .calculator{
+        width: 37%;
+        height: 90%;
+        /* border: 1px solid rgb(238, 184, 8); */
+        position: absolute;
+        left: 33%;
+        right: 37%;
+        top: 3%;
+        border-radius: 20px;
+    }  
+    .button{
+        width: 100%;
+        height: 66vh;
+        /* border: 1px solid yellow; */
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: rgb(17, 17, 17);
+    }
+    .button1{
+        width: 100%;
+        height: 66vh;
+        /* border: 1px solid yellow; */
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: rgb(17, 17, 17);
+    }
+    .btn{
+        text-wrap: wrap;
+        width: 20%;
+        height: 16.5%;
+        margin-left: 11.5px;
+        margin-top: 11px;
+        border-radius: 15px;
+        background-color:rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 20px;
+        border: 1px solid transparent;
+    }
+    .btn1{
+        text-wrap: wrap;
+        width: 21%;
+        height: 11%;
+        margin-left: 8.5px;
+        margin-top: 2px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 1.3rem;
+        border: 1px solid transparent;
+        transition: background-color 0.3s; 
+    }
+    .btn2{
+        text-wrap: wrap;
+        width: 45.2%;
+        height: 11%;
+        margin-left: 8.5px;
+        margin-top: 2px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 1.3rem;
+        border: 1px solid transparent;
+        transition: background-color 0.3s; 
+    }
+    
+}
+@media (max-width: 786px) {
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .backGround{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .button{
+        width: 100%;
+        height: 60vh;
+        /* border: 1px solid yellow; */
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: rgb(17, 17, 17);
+    }
+    .button1{
+        width: 100%;
+        height: 60vh;
+        /* border: 1px solid yellow; */
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: rgb(17, 17, 17);
+    }
+    .calculator{
+        /* border: 1px solid beige; */
+        width: 70%;
+        height: 90%;
+        position: absolute;
+        top: 5%;
+        left: 15%;
+        right: 15%;
+    }
+    .btn{
+        text-wrap: wrap;
+        width: 21%;
+        height: 16.5%;
+        margin-left: 13px;
+        margin-top: 11px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 20px;
+        /* border: 1px solid transparent; */
+    }
+    .btn1{
+        text-wrap: wrap;
+        width: 22%;
+        height: 11.8%;
+        margin-left: 8.5px;
+        margin-top: 4px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 1.3rem;
+        border: 1px solid transparent;
+        transition: background-color 0.3s; 
+    }
+    .btn1:hover{
+        background-color: rgb(221, 113, 25);
+        color:  rgb(32, 32, 32);
+    }
+    .btn2{
+        text-wrap: wrap;
+        width: 46%;
+        height: 11%;
+        margin-left: 8.5px;
+        margin-top: 4px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 1.3rem;
+        border: 1px solid transparent;
+        transition: background-color 0.3s; 
+    }
+   
+}
+@media (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .backGround{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .calculator{
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        border-radius: 0;
+    }
+    .button{
+        width: 100%;
+        height: 72vh;
+        /* border: 1px solid yellow; */
+        border-radius: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: rgb(17, 17, 17);
+        
+    }
+    .button1{
+        width: 100%;
+        height: 72vh;
+        /* border: 1px solid yellow; */
+        border-radius: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: rgb(17, 17, 17);
+        
+    }
+    .btn{
+        text-wrap: wrap;
+        width: 19.5%;
+        height: 15%;
+        margin-left: 14px;
+        margin-top: 11px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 20px;
+        /* border: 1px solid transparent; */
+    }
+    .equal-btn{
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        width: 44%;
+        height: 16.5%;
+        margin-left: 12px;
+        margin-top: 11px;
+        border-radius: 15px;
+        font-size: 20px;
+        /* border: 1px solid transparent; */
+    }
+    .btn1{
+        text-wrap: wrap;
+        width: 21%;
+        height: 11.8%;
+        margin-left: 7px;
+        margin-top: 2px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 1.3rem;
+        border: 1px solid transparent;
+        transition: background-color 0.3s; 
+    }
+   
+    .btn2{
+        text-wrap: wrap;
+        width: 44.5%;
+        height: 11%;
+        margin-left: 7px;
+        margin-top: 2px;
+        border-radius: 15px;
+        background-color: rgb(32, 32, 32);
+        color: whitesmoke;
+        font-size: 1.3rem;
+        border: 1px solid transparent;
+        transition: background-color 0.3s; 
+    }
+    .output{
+        width: 100%;
+        height: 8vh;
+        background-color: rgb(17, 17, 17);
+        color: whitesmoke;
+        font-size: 1.8rem;
+        text-align: end;
+        padding: 2.2rem;
+        
+    }
+}
