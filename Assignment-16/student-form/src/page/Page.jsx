@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+
 // import data from '../constant/data/Data'
 import TableItem from '../components/tableItem/TableItem'
 import AddStudent from '../components/addStudent/AddStudent'
@@ -6,6 +7,7 @@ const Page = () => {
 
   const [data,setData]= useState([])
   const [editStudent, setEditStudent] = useState(null);
+ 
 
 
 
@@ -36,6 +38,10 @@ const Page = () => {
     setEditStudent(student)
   
   }
+ 
+
+  
+
    
   return (
 
@@ -50,8 +56,9 @@ const Page = () => {
           
           <th style={{border:'1px solid black'}}>id</th>
           <th style={{border:'1px solid black'}}>Name</th>
+          <th style={{border:'1px solid black'}}>FatherName</th>
           <th style={{border:'1px solid black'}}>Age</th>
-          <th style={{border:'1px solid black'}}>Gender</th>
+          <th style={{border:'1px solid black'}}>Email</th>
         </tr>
         {data.map((item)=>{
           return(
