@@ -1,0 +1,52 @@
+.table-box{
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle box shadow */
+  }
+  
+  th{
+    padding: 10px; /* Adjust padding for better spacing */
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold;
+  }
+  
+  /* Buttons within table cells */
+  button {
+    border: none;
+    padding: 5px 10px; /* Adjust padding for smaller buttons */
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Smooth button hover effect */
+  }
+  
+  button:hover {
+    background-color: #ddd; /* Lighten button background on hover */
+  }
+  
+  .update-button {
+    background-color: #4CAF50; /* Green for update action */
+    color: white;
+  }
+  
+  .update-button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red for delete action */
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #da291c; /* Darker red on hover */
+  }

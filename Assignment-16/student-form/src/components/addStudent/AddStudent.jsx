@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import * as yup from "yup"
+import "./AddStudent.css"
 const AddStudent = (props) => {
     const [name, setName]= useState('');
     const [fatherName, setFatherName]= useState('');
@@ -11,9 +12,9 @@ const [error, setError] = useState({})
     useEffect(()=>{
         if (props.editStudent) {
             setName(props.editStudent.name);
-            setName(props.editStudent.fatherName);
+            setFatherName(props.editStudent.fatherName);
             setAge(props.editStudent.age);
-            setGender(props.editStudent.email);
+            setEmail(props.editStudent.email);
         }
     },[props.editStudent])
     
@@ -55,17 +56,26 @@ const [error, setError] = useState({})
         setEmail('');   
     }
   return (
-    <div>
-        <input type="text" value={name} onChange={(e)=>setName(e.target.value)}  placeholder='Enter Your Name'/> <br />
+    <div className="main-box">
+    <div className='student-box'>
+        <div className="heading"><p className='main-heading'>Student Registration Form</p></div>
+        <div className="input-box">
+            <label htmlFor="">Name :</label> <br />
+        <input type="text" className='input-field' value={name} onChange={(e)=>setName(e.target.value)}  placeholder='Enter Your Name'/> <br />
         {error && <p style={{color:"red"}}>{error.name}</p>} <br />
-        <input type="text" value={fatherName} onChange={(e)=>setFatherName(e.target.value)}  placeholder='Enter Your FatherName'/> <br />
+        <label htmlFor="">Father's Name :</label>  <br /> 
+        <input type="text" className='input-field' value={fatherName} onChange={(e)=>setFatherName(e.target.value)}  placeholder='Enter Your FatherName'/> <br />
         {error && <p style={{color:"red"}}>{error.fatherName}</p>} <br />
-        <input type="text" value={age} onChange={(e)=>setAge(e.target.value)} placeholder='Enter Your Age'/> <br />
+        <label htmlFor="">Age:</label><br/>  
+        <input type="text" className='input-field' value={age} onChange={(e)=>setAge(e.target.value)} placeholder='Enter Your Age'/> <br />
         {error && <p style={{color:"red"}}>{error.age}</p>} <br />
-        <input type="text" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder='Enter Your Email'/> <br />
+        <label htmlFor="">Email:</label>  <br />
+        <input type="text" className='input-field' value={email} onChange={(e)=>setEmail(e.target.value)} placeholder='Enter Your Email'/> <br />
         {error && <p style={{color:"red"}}>{error.email}</p>} <br />
-        <button onClick={onClickAddHandler}>{props.editStudent ? 'Update Student' : 'Add Student'}</button>
-        
+        </div>
+        <div className='btn-btn'><button className='student-btn' onClick={onClickAddHandler}>{props.editStudent ? 'Update Student' : 'Add Student'}</button> 
+        </div>
+    </div>
     </div>
   )
 }

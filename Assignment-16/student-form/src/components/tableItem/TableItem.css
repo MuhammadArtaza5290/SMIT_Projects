@@ -1,0 +1,82 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle box shadow */
+    margin-bottom: 20px;
+  }
+td {
+    padding: 10px; /* Adjust padding for better spacing */
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  .td-background{
+    background-color: #f5f5f5; /* Light gray background for data rows */
+  }
+  th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold;
+  }
+  
+  /* Buttons within table cells */
+  button {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Smooth button hover effect */
+  }
+  
+  button:hover {
+    background-color: #ddd; /* Lighten button background on hover */
+  }
+  
+  .update-button {
+    background-color: #4CAF50; /* Green for update action */
+    color: white;
+    padding: 10px 40px;
+    
+  }
+  
+  .update-button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red for delete action */
+    color: white;
+    padding: 10px 40px;
+    
+  }
+  
+  .delete-button:hover {
+    background-color: #da291c; /* Darker red on hover */
+  }
+
+  @media (max-width: 768px) {
+    table {
+        width: 100%; /* Use full width on small screens */
+        overflow-x: auto; /* Horizontal scroll if needed */
+    }
+    th, td {
+        padding: 8px;
+    }
+    button {
+        padding: 8px 20px; /* Adjust button padding */
+    }
+}
+  @media (max-width: 480px) {
+    th, td {
+        display: block;
+        width: 100%; /* Stack cells vertically on very small screens */
+        text-align: right;
+    }
+    th {
+        background-color: #eaeaea; /* Different background for clarity */
+    }
+    td::before {
+        content: attr(data-label); /* Show column label before content */
+        float: left;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+}

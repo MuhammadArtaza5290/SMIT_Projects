@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 // import data from '../constant/data/Data'
 import TableItem from '../components/tableItem/TableItem'
 import AddStudent from '../components/addStudent/AddStudent'
+import "./Page.css"
 const Page = () => {
 
   const [data,setData]= useState([])
@@ -28,8 +29,9 @@ const Page = () => {
     setData([...data, {
       id: data.length + 1,
       name: student.name,
+      fatherName: student.fatherName,
       age: student.age,
-      gender: student.gender,
+      email: student.email,
     }]);
   }
   };
@@ -47,11 +49,9 @@ const Page = () => {
 
     <>
     <AddStudent onAddHandler={onAddHandler} editStudent={editStudent}/>
-    <div>
+    <div className='table-box'>
       
-
-
-      <table style={{width: '100%', border:'1px solid black'}}>
+      <table style={{border:'1px solid black'}}>
         <tr >
           
           <th style={{border:'1px solid black'}}>id</th>
@@ -59,6 +59,7 @@ const Page = () => {
           <th style={{border:'1px solid black'}}>FatherName</th>
           <th style={{border:'1px solid black'}}>Age</th>
           <th style={{border:'1px solid black'}}>Email</th>
+          <th style={{border:'1px solid black'}}></th>
         </tr>
         {data.map((item)=>{
           return(
