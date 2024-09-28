@@ -1,0 +1,14 @@
+.counting{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 80%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: auto;
+    border-radius: 30px;
+}
+h2{
+    font-size: 40px;
+}

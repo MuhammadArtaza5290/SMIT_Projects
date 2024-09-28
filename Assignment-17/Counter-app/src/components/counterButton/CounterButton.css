@@ -1,0 +1,51 @@
+.btn-sec1{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.btn-sec2{
+    /* border: 1px solid yellowgreen; */
+    margin-top: 25px;
+    margin-bottom: auto;
+}
+.btn-decrement{
+   background-color: rgb(255, 18, 18);
+   font-size: 20px;
+   font-weight: 700;
+   padding: 10px 40px;
+   border-radius: 20px;
+   border: 2px solid transparent;
+   transition: transform 0.7s ease;
+}
+.btn-decrement:hover{
+    background-color: rgb(187, 1, 1);
+    border: 2px solid transparent;
+
+}
+.btn-increment{
+    background-color: green;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: transform 0.7s ease;
+}
+.btn-increment:hover{
+    background-color: rgb(1, 99, 1);
+    border: 2px solid transparent;
+
+}
+.btn-reset{
+    background-color:rgb(216, 216, 216);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 60px;
+    border: 2px solid transparent;
+}
+.btn-reset:hover{
+    background-color: rgb(165, 165, 165);
+    border: 2px solid transparent;
+
+}
