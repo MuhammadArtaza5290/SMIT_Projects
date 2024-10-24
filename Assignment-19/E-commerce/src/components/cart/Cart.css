@@ -1,0 +1,82 @@
+/* Cart Container */
+.cartContainer {
+    /* display: flex; */
+    justify-content: space-between; /* Distribute space evenly */
+    padding: 20px;
+  }
+  
+  /* Individual Cart Item Style */
+  .cartStyle {
+    flex: 1 1 30%; /* Flexible item that takes up 30% of the row */
+    display: flex; /* Flexbox to align content horizontally */
+    flex-direction: row; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: space-around;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Inner padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #fff; /* White background */
+    transition: transform 0.3s ease; /* Smooth scale transition */
+  }
+  h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Image Style */
+  .cartStyle img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Slightly round the image corners */
+  }
+  
+  /* Title Style */
+  .cartStyle h3 {
+    font-size: 1.2rem; /* Responsive font size */
+    margin: 10px 20px; /* Margin for spacing */
+    text-align: center; /* Centered title */
+  }
+  
+  /* Price Style */
+  .cartStyle h4 {
+    font-size: 1rem; /* Standard font size */
+    color: #333; /* Darker text color */
+    margin-right: 0;
+  }
+  .quantity{
+    display: flex;
+  }
+  .qnty{
+    height: 40px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }     
+  .qnty-btn{
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ccc;
+    margin-top: 3px;
+    border: 1px solid black;
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+  .sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+  }
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .cartStyle {
+      flex: 1 1 45%; /* Change to 45% for medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cartStyle {
+      flex: 1 1 100%; /* Full width on small screens */
+    }
+  }

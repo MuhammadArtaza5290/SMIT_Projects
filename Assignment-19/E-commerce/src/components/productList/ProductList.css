@@ -1,0 +1,32 @@
+/* Card styles */
+.cardd {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+}
+
+.cardd:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1191px) and (min-width: 780px) {
+  .col-md-3 {
+    flex: 1 1 calc(33.33% - 2rem); /* 3 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-3 {
+    flex: 1 1 calc(50% - 2rem); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 576px) {
+  .col-md-3 {
+    flex: 1 1 calc(60% - 2rem); /* 1 card per row */
+  }
+}
