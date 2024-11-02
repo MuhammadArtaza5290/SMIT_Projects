@@ -1,0 +1,31 @@
+    Extensions of vs code
+1.Bracket colorful:   Bracket Pair Color DLW
+2.Bracket colorful2:  [Deprecated] Bracket Pair Colorizer 2
+3.React js:           ES7+ React/Redux/React-Native snippet
+4.Colorful words:     Prettier - Code formatter
+5.AI help:            Tabnine: AI Chat & Autocomplete for Jav
+6.Thunder client:     Thunder Client
+7.Tailwind css helper:Tailwind CSS IntelliSense
+
+    important app for web development
+
+1. vs code 
+2. surge
+3. git
+4. node js
+
+
+    important username and password
+
+1. my github username: https://github.com/MuhammadArtaza5290/SMIT_Projects
+
+   Important libraries in react js
+
+1. React router dom
+2. font awesome: import '../node_modules/font-awesome/css/font-awesome.min.css'
+3. moment.js
+4. uuid
+5. firebase
+6. yup
+7. redux toolkit
+8. bootstrap:  import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
